@@ -19,3 +19,7 @@ secrets set <name> <value>   Set secret with given name and value.
 secrets delete <name>        Delete secret with given name.
 secrets version              Get version of secrets.
 ```
+
+## Tips
+
+* Configure your shell to ignore `secrets set` so secrets are not exposed in your history file.
